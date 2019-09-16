@@ -7,7 +7,7 @@ public class BaseFormat {
         System.out.println(str);
         str=String.format("Hi,%s:%s.%s", "王南","王力","王张");
         System.out.println(str);
-        System.out.printf("字母a的大写是：%c %n", 'A');
+        System.out.printf("字母a的大写是：%c \n", 'A');
         System.out.printf("3>7的结果是：%b %n", 3>7);
         System.out.printf("100的一半是：%d %n", 100/2);
         System.out.printf("100的16进制数是：%x %n", 100);
