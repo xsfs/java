@@ -1,3 +1,5 @@
+package stringformat;
+
 public class Test {
     public static void main(String[] args) {
         double l = 99.45;
