@@ -1,6 +1,6 @@
 package stringformat;
 
-public class Test {
+public class StringFormatTest {
     public static void main(String[] args) {
         double l = 99.45;
         System.out.printf("%+f\n",l);

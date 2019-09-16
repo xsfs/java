@@ -2,12 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="df8f4063-c81b-4baf-a743-f7fede0f5c08" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/BigDecimal/Initialize.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BigDecimal/Operate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BigDecimal/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BigDecimal/Function.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/BigDecimal/Initialize.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java/BigDecimal/Initialize.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/BigDecimal/Operate.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java/BigDecimal/Operate.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/java/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java/Test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/stringformat/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/stringformat/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BigDecimal/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BigDecimal/BigDecimalTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stringformat/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/stringformat/StringFormatTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -25,34 +28,25 @@
         <entry file="file://$PROJECT_DIR$/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="68">
-              <caret line="4" column="5" lean-forward="true" selection-start-line="2" selection-start-column="3" selection-end-line="4" selection-end-column="5" />
+              <caret line="4" column="5" selection-start-line="2" selection-start-column="3" selection-end-line="4" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/BigDecimal/Test.java">
+        <entry file="file://$PROJECT_DIR$/src/BigDecimal/BigDecimalTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/BigDecimal/Initialize.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+            <state relative-caret-position="170">
+              <caret line="10" column="49" lean-forward="true" selection-start-line="10" selection-start-column="49" selection-end-line="10" selection-end-column="49" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/BigDecimal/Operate.java">
+        <entry file="file://$PROJECT_DIR$/src/BigDecimal/Function.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
+            <state relative-caret-position="289">
+              <caret line="17" column="52" lean-forward="true" selection-start-line="17" selection-start-column="52" selection-end-line="17" selection-end-column="52" />
             </state>
           </provider>
         </entry>
@@ -78,9 +72,12 @@
         <option value="$PROJECT_DIR$/src/stringformat/DateAdvancedFormat.java" />
         <option value="$PROJECT_DIR$/src/stringformat/BaseFormat.java" />
         <option value="$PROJECT_DIR$/src/stringformat/Test.java" />
-        <option value="$PROJECT_DIR$/src/Test.java" />
         <option value="$PROJECT_DIR$/src/BigDecimal/Initialize.java" />
         <option value="$PROJECT_DIR$/src/BigDecimal/Operate.java" />
+        <option value="$PROJECT_DIR$/src/Test.java" />
+        <option value="$PROJECT_DIR$/src/BigDecimal/Test.java" />
+        <option value="$PROJECT_DIR$/src/BigDecimal/BigDecimalTest.java" />
+        <option value="$PROJECT_DIR$/src/BigDecimal/Function.java" />
       </list>
     </option>
   </component>
@@ -113,6 +110,12 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="BigDecimal" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="stringformat" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -137,20 +140,34 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Operate">
+  <component name="RunManager" selected="Application.Function">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BaseFormat" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="stringformat.BaseFormat" />
+    <configuration name="BigDecimalTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BigDecimal.BigDecimalTest" />
       <module name="java" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="stringformat.*" />
+          <option name="PATTERN" value="BigDecimal.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Function" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BigDecimal.Function" />
+      <module name="java" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="BigDecimal.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -186,8 +203,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="stringformat.Test" />
+    <configuration name="Test (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Test" />
       <module name="java" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
@@ -234,19 +251,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.BaseFormat" />
-      <item itemvalue="Application.Test" />
       <item itemvalue="Application.Test (1)" />
       <item itemvalue="Application.Initialize" />
       <item itemvalue="Application.Operate" />
+      <item itemvalue="Application.BigDecimalTest" />
+      <item itemvalue="Application.Function" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Function" />
+        <item itemvalue="Application.BigDecimalTest" />
+        <item itemvalue="Application.Test (1)" />
         <item itemvalue="Application.Operate" />
         <item itemvalue="Application.Initialize" />
-        <item itemvalue="Application.Test (1)" />
-        <item itemvalue="Application.Test" />
-        <item itemvalue="Application.BaseFormat" />
       </list>
     </recent_temporary>
   </component>
@@ -262,18 +279,18 @@
       <updated>1568615819854</updated>
       <workItem from="1568615822778" duration="1698000" />
       <workItem from="1568618736594" duration="157000" />
-      <workItem from="1568619477291" duration="2078000" />
+      <workItem from="1568619477291" duration="3620000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3933000" />
+    <option name="totallyTimeSpent" value="5475000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25579977" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25579977" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -282,7 +299,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32959184" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32959184" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -349,38 +366,55 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/stringformat/Test.java">
+    <entry file="file://$PROJECT_DIR$/src/BigDecimal/Operate.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        <state relative-caret-position="170">
+          <caret line="10" column="36" lean-forward="true" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BigDecimal/Initialize.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="1" lean-forward="true" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/stringformat/StringFormatTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BigDecimal/BigDecimalTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="49" lean-forward="true" selection-start-line="10" selection-start-column="49" selection-end-line="10" selection-end-column="49" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
-          <caret line="4" column="5" lean-forward="true" selection-start-line="2" selection-start-column="3" selection-end-line="4" selection-end-column="5" />
+          <caret line="4" column="5" selection-start-line="2" selection-start-column="3" selection-end-line="4" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/BigDecimal/Test.java">
+    <entry file="file://$PROJECT_DIR$/src/BigDecimal/Function.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/BigDecimal/Initialize.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/BigDecimal/Operate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
+        <state relative-caret-position="289">
+          <caret line="17" column="52" lean-forward="true" selection-start-line="17" selection-start-column="52" selection-end-line="17" selection-end-column="52" />
         </state>
       </provider>
     </entry>
